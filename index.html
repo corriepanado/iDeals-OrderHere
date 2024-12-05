@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Store</title>
+</head>
+<body>
+    <h1>Welcome to the iPhone Store</h1>
+    <h3>Choose your iPhone:</h3>
+    <form action="process_purchase.php" method="POST">
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 6s"> iPhone 6s - R1200
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 8 Plus"> iPhone 8 Plus - R1800
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone XR"> iPhone XR - R2000
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone XS Max"> iPhone XS Max - R2200
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 11"> iPhone 11 - R3800
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 11 Pro"> iPhone 11 Pro - R4000
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 12"> iPhone 12 - R4300
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 13 Mini"> iPhone 13 Mini - R5000
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 13 Pro Max"> iPhone 13 Pro Max - R6000
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 14"> iPhone 14 - R7000
+        </label><br>
+        <label>
+            <input type="radio" name="phone_model" value="iPhone 14 Pro Max"> iPhone 14 Pro Max - R8000
+        </label><br><br>
+
+        <h3>Enter your details:</h3>
+        <label>Name: <input type="text" name="name" required></label><br>
+        <label>Surname: <input type="text" name="surname" required></label><br>
+        <label>Phone Number: <input type="text" name="phone" required></label><br>
+        <label>Address: <textarea name="address" required></textarea></label><br><br>
+
+        <button type="submit">Purchase</button>
+    </form>
+</body>
+</html>
